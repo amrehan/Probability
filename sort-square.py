@@ -6,7 +6,7 @@
 def square_Function(nums):
 	positive_Array = [num for num in nums if num >= 0] #0 1 4 5
 
-	negative_Array = [num for num in nums if num < 0]  # -1 -3 -5 -6
+	negative_Array = [num for num in nums if num < 0]  # -1 -3 -5 
 	
 	negative_Array.reverse()
 
