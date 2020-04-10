@@ -1,3 +1,8 @@
+############
+#Given a list of sorted numbers (can be both negative or positive), return the list of numbers squared in sorted order.
+############
+
+
 def square_Function(nums):
 	positive_Array = [] #0 1 4 5
 
@@ -36,7 +41,7 @@ def merge(l, r):
 	return square_sorted
 
 #driver_function
-print(square_Function([-9, -6,-5, -3, -1, 0, 1, 4, 5, 11]))
+print(square_Function([-5, -3, -1, 0, 1, 4, 5]))
 
 # [0, 1, 1, 9, 16, 25, 25]
 # O(n)
