@@ -22,8 +22,12 @@ def convert_to_int(s):
 
     if s[0] == "-":
         return int_value*(-1)
-
     else:
         return int_value
 
 print(convert_to_int("15454") + 1)
+
+# 15455
+
+print(convert_to_int("-154") + 1)
+#153
